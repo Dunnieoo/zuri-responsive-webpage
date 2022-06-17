@@ -86,8 +86,11 @@ button {
   background-color: hsl(154, 59%, 51%);
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
-
+button:active {
+  background-color: hsl(154, 29%, 64%);
+}
 .bottom-container p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -139,7 +142,7 @@ button {
   }
   .beside,
   .flex-container1 {
-    width: 70%;
+    width: 80%;
   }
   .beside h1 {
     margin-bottom: 18px;
@@ -167,10 +170,10 @@ button {
     font-size: 15px;
   }
   .bottom-container p {
-    font-size: 15px;
+    font-size: 12px;
   }
   #terms {
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 
@@ -183,7 +186,7 @@ button {
   }
   .beside,
   .flex-container1 {
-    width: 90%;
+    width: 95%;
   }
   .beside h1 {
     margin-bottom: 20px;
@@ -200,5 +203,11 @@ button {
     background-color: hsl(248, 32%, 49%);
     padding: 20px;
     font-size: 12px;
+  }
+  .bottom-container p {
+    font-size: 10px;
+  }
+  #terms {
+    font-size: 11px;
   }
 }
